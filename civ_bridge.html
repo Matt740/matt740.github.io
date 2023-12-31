@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Matthew Pihowich</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css" />
+    <link href = "images/Mattamatic.png" rel="icon" type="image/gif">
+
+</head>
+
+<body>
+<nav>
+    <a href="index.html"><img class = logo src = "images/Mattamatic.png"></a>
+    <a href="index.html"><p>Matthew Pihowich</p></a>
+    <ul>
+        <li><a href="#"> Portfolio</a>
+            <ul> 
+                <li><a href="school.html">School</a></li>
+                <li><a href="bssr.html">BSSR</a></li>
+                <li><a href="personal.html">Personal</a></li>
+            </ul>
+        </li>
+        <li><a href="music.html"> Music</a></li>
+        <li><a href="about.html"> About Me</a></li>
+        <li><a href="contact.html"> Contact</a></li>  
+    </ul>
+</nav>
+
+<main>
+<h1>CIV102 Bridge Project</h1>
+<p>The CIV102 bridge is probably the most iconic project for first year students in Engineering Science at UofT.
+    In the twilight before the finals of the first semester, we suddenly were tasked with designing and
+    building a beam bridge out of matboard in a group of 3 or 4. Here is ours about to fail due to shear and buckling.
+</p>
+<img src="images/bridge_breaks.png" alt="">
+
+<p>We were given basic skeleton code, a design 0, a single sheet of matboard, contact cement, and a dream; a dream
+    to reach the 1kN club. Our first objective was to write the code that would help us iterate our bridge design.
+    I stepped up the most in this early phase by coding in Shear Force Diagrams and Bending Moment Diagrams
+    for a given train car weight and train position, and then iterated it over all 1200 positions to make a plot for
+    each max value at every point over all positions. Then as a team we coded our geometry in with variable cross-sections 
+    and calculated our cross-sectional constants, stresses, and safety factors, plotted it all, graphed it, and it
+    looks like this (These are the final graphs. As you can see we predicted our bridge would fail in compression.):
+</p>
+<img src="images/bridge_calc.png" alt="">
+<a href="https://github.com/Matt740/School/blob/main/bridge.mat"><img src="images/github.png" alt=""></a>
+
+<p>
+One thought I had during this project that I am proud of was about the material properties of matboard.
+The references that we had to work on were mostly concrete, as box girders are. However, I noticed the
+material properties were more similar to steel. Matboard does not have the compressive strength of
+concrete, so I pitched my team reference designs made of steel and did hand calculations for our mostly
+restrictive case that seemed promising.
+</p>
+
+
+<img class = "tall_picture" src="images/bridge1.jpg" alt="">
+<img class = "tall_picture" src="images/bridge2.jpg" alt="">
+
+<p>
+Unfortunately, I thought of this rather late in our design process and we had pressure to start
+construction due to time constraints. We also were unsure about the buckling case for our side legs
+in the cross-section due to the unattached bottom in my proposal. We therefore made a team decision
+to stick with our hyper-optimized box girder as opposed to this new design.
+</p>
+
+<img class = "tall_picture" src="images/bridge3.jpg" alt="">
+<img class = "tall_picture" src="images/bridge4.jpg" alt="">
+<img src="images/bridge5.jpg" alt="">
+
+<p>
+In terms of construction, I once again looked to reference designs. The class had a couple bridges
+left over that had been previously destroyed in testing. This is the one that was good. It told us
+splicing horizontally as opposed to vertically was a good idea and the diaphragm spacing was
+incredibly important. 
+</p>
+
+<img src="images/bridge_team.jpg" alt="">
+
+<p>In the end, our construction ended up being our downfall. Our bridge failed first
+    in shear failure in the glue connected our top piece and then buckling once the glue failed.
+    The matboard ended up being harder than we expected to fold, so the tabs in the side legs ended
+    up having less surface on the top piece of our bridge to adhere to. Our bridge held around 700 N
+    which unfortunately was around half of what we anticipated from our calculations, but it
+    came with a valuable lesson: calculations are not the only thing that make up engineering.
+</p>
+
+<p>Final Design Document:</p>
+<embed src="images/bridge_report.pdf" type="">
+
+</main>
+</body>
+</html>
