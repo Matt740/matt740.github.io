@@ -129,6 +129,11 @@ p {
 
 }
 
+centered_main_content_img {
+    display: block;
+    margin: 0 auto;
+}
+
 /* 3_col_table */
 .columns {
     display:flex;
