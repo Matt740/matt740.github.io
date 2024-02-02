@@ -26,8 +26,10 @@ embed {
 }
 
 .centered {
-    justify-content: center;
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 /* Nav Bar and Logo */
@@ -129,11 +131,6 @@ p {
 
 }
 
-centered_main_content_img {
-    display: block;
-    margin: 0 auto;
-}
-
 /* 3_col_table */
 .columns {
     display:flex;
@@ -149,13 +146,17 @@ centered_main_content_img {
     padding: 15px;
     transition: 0.3s;
     color: black;
+    text-align: center;
 }
 
 .column_img {
+    display: block;
     max-width: 350px;
     max-height: 300px;
     width: auto;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* large-left and small right format*/
