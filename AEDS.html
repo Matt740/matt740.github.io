@@ -42,23 +42,25 @@
 
 <p> The prototype's structure is made of a 3D printed PLA central grommet for a test stand with 4 FEA-tested balsa wood arms, each
     with a friction-fit motor mount (this would come in handy when we burned a few of the motors). Our mobility came from four small
-    ROB-11696 DC hobby motors controlled by custom motor controlling circuits (Darlington Transistors and Diodes) and powered by two 12V 5A DC power supplies.
-    The diagram for this setup.
+    ROB-11696 DC hobby motors controlled by custom motor controlling circuits (Darlington Transistors and Diodes connected to
+    PWM outputs on a RPi4) and powered by two 12V 5A DC power supplies.
 </p>
 
 <img class="centered" src="images/MotorControl.png" alt="">
 
 <p>
-    The resin propellers for these motors were chosen through extensive thrust testing, maximizing the thrust provided while
+    The 5x4x3 resin propellers for these motors were chosen through extensive thrust testing, maximizing the thrust provided while
     staying below the motor burning current of around 2 Amps. They were also press-fit and epoxied to the mounting end of the motors.
-    Some data can be seen below.
 </p>
 
 <img class="centered" src="images/ThrustCurve.png" alt="">
 
-The flight of this system can be seen below:
+<embed class="centered" src="https://www.youtube.com/embed/kK3Pkdb1Lxg" type="">
 
-<embed src="https://www.youtube.com/watch?v=kK3Pkdb1Lxg" type="">
+<p> In addition to controlling the motors, the Raspberry Pi 4 also interfaces with several offboard sensors using an I2C communication
+     protocol as well as ran a .
+    
+</p>
 
 
 </main>
