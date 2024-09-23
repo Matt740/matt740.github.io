@@ -30,38 +30,26 @@
 <main>
 <h1>Aerial E-Waste Detection System</h1>
 
-<p>The full presentation for this project and further documentation from our four-person team's drive can be seen below:</p>
-
-<p><a href="https://docs.google.com/presentation/d/1Eo9d1lagnMo2O64GaG046VK3Er2uhyO9iOB4X5w1Mio/edit?usp=sharing">Presentation</a></p>
-<p><a href="https://drive.google.com/drive/folders/1FdPqLLzLSUQrmdoXkZFRNiW8aD53XSOW?usp=drive_link">Google Drive</a></p>
-
 <p> The Aerial E-Waste Detection System is a prototype drone-based waste scanning system aimed at aiding people who scavenge for valuable waste in
     landfills in Bangladesh. By providing the location of valuable waste to those who are looking for it, we can provide value by decreasing
     the amount of time they have to spend in hazardous conditions as well as increase their ability to make money.
 </p>
 
-<p> The prototype's structure is made of a 3D printed PLA central grommet for a test stand with 4 FEA-tested balsa wood arms, each
-    with a friction-fit motor mount (this would come in handy when we burned a few of the motors). Our mobility came from four small
-    ROB-11696 DC hobby motors controlled by custom motor controlling circuits (Darlington Transistors and Diodes connected to
-    PWM outputs on a RPi4) and powered by two 12V 5A DC power supplies.
-</p>
+<img class="centered" src="images/Visual Abstract.jpeg" alt="">
 
-<img class="centered" src="images/MotorControl.png" alt="">
+<p>I worked on all of the systems of the AEDS except for the computer vision model. I helped develop the motor controllers,
+ designed and simulated the structural frame of the drone, helped integrate the sensors and motor controllers into our Raspberry Pi's 
+ I2C protocol, and also did a lot of the testing for the motors and propellers.</p>
 
-<p>
-    The 5x4x3 resin propellers for these motors were chosen through extensive thrust testing, maximizing the thrust provided while
-    staying below the motor burning current of around 2 Amps. They were also press-fit and epoxied to the mounting end of the motors.
-</p>
-
-<img class="centered" src="images/ThrustCurve.png" alt="">
+<p>Here is a video of it flying:</p>
 
 <embed class="centered" src="https://www.youtube.com/embed/kK3Pkdb1Lxg" type="">
 
-<p> In addition to controlling the motors, the Raspberry Pi 4 also interfaces with several offboard sensors using an I2C communication
-     protocol as well as ran a .
-    
-</p>
+<p>The full presentation for this project and further documentation from our four-person team's drive can be seen below:</p>
 
+<p><a href="https://docs.google.com/presentation/d/1Eo9d1lagnMo2O64GaG046VK3Er2uhyO9iOB4X5w1Mio/edit?usp=sharing">Presentation</a></p>
+<p><a href="https://drive.google.com/drive/folders/1FdPqLLzLSUQrmdoXkZFRNiW8aD53XSOW?usp=drive_link">Google Drive</a></p>
+    
 
 </main>
 </body>
